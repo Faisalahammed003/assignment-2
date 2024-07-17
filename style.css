@@ -1,3 +1,36 @@
 .body{
     background-color: black;
 }
+/* Shared Style */
+.display-flex{
+    display: flex;
+}
+/* Navbar Style */
+.navbar{
+    justify-content: space-around;
+    align-items: center;
+}
+.fitness{
+    color: #E6533C;
+    max-width: 1440px;
+}
+.Fitness{
+    font-weight: 700;
+    font-size: 2.3rem;
+    font-style: italic;
+}
+#home{
+    background-color: #E6533C;
+    border-radius: 46px;
+    padding: 8px 20px;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 35px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-weight: 500;
+    font-size: 1.12rem;
+    color: #FFFFFF;}
