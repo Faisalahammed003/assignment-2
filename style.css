@@ -1,3 +1,12 @@
+/* Font styles */
+@font-face{
+    font-family: myfont;
+    src: url(./Miama.ttf);
+}
+#shape{
+    font-family: myfont;
+}
+/* full page color */
 .body{
     background-color: black;
 }
@@ -9,12 +18,15 @@
 .navbar{
     justify-content: space-around;
     align-items: center;
+    background-color: #111111;
+    width: 60em;
+    height: auto;
 }
 .fitness{
     color: #E6533C;
     max-width: 1440px;
 }
-.Fitness{
+.fitness{
     font-weight: 700;
     font-size: 2.3rem;
     font-style: italic;
@@ -34,3 +46,351 @@
     font-weight: 500;
     font-size: 1.12rem;
     color: #FFFFFF;}
+
+    /* banner styles */
+    .banner{
+        display: flex;
+        width: 1440px;
+        height: 715px;
+        background-size: cover;
+        background-color: #111111;
+        width: 60em;
+        height: 40em;
+    }
+    .banner-text{
+        width: 40em;
+        height: auto;
+        color: white;
+        position: relative;
+        left: 10em;
+        top: 6em;
+        font-size: large;
+      
+    }
+    .banner-title{
+        font-size: xx-large;
+    }
+
+    .btn-1{
+        background-color: #E6533C;
+    border-radius: 46px;
+    padding: 8px 20px;
+    color: white;
+      }
+      .btn-2{
+        background-color: black;
+    border-radius: 46px;
+    padding: 8px 20px;
+    border: 1px solid white;
+    color: white;
+      }
+      .tutorial{
+        border: 2px none;
+        height: 75px;
+        width: 200px;
+        color: white;
+        border-radius: 12px;
+        border: 1px solid whitesmoke;
+        text-align: center;
+        position: relative;
+        top: -180px;
+        left: -120px;
+      }
+      .tutorial-span{
+        border: 15px solid #E6533C;
+        border-radius: 50%;
+        position: relative;
+        left: -3em;
+        top: 2em;
+      }
+    .workout{
+        height: 75px;
+        width: 100px;
+        color: white;
+        border-radius: 12px;
+        border:  1px solid white;
+        padding-left: 8px 8px;
+        position: relative;
+        top: -580px;
+        left: 190px;
+      }
+      .free{
+        font-size: small;
+      }
+
+      /* Main part */
+      .change{
+        color: white;
+        text-align: center;        
+      }
+      .habits{
+        display: flex;
+        color: white;
+        margin-top: 0%;
+      }
+      .habits, h3{
+        margin-left: 40px;
+        font-size: medium;
+
+      }
+      .img{
+        border-radius: 50%;
+      }
+      .time{
+        margin-left: 60px;
+      }
+      /* run option */
+      .run{
+        display: flex;
+        color: white;
+        border: 2px solid none;
+        width: 53em;
+        height:16em;
+        background-color:#222222;
+        margin-left: 3rem;
+      }
+      .img-size{
+        height: 14em;
+        width: 23em;
+        margin-left: 54%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 5%;
+    
+      }
+      .extra{
+        margin-top: 1rem;
+        margin-left: 1rem;
+      
+      }
+
+      /* BMI part */
+
+      .b{
+        color: white;
+        margin-left: 16em;
+      }
+      .bb{
+        color: white;
+        margin-left: 30em;
+      }
+
+      .bmi{
+        display: flex;
+        color: white;
+        border: 2px solid none;
+        width: 60em;
+        height:16em;
+        background-color:#222222;
+        gap: 20rem;
+
+      }
+      #b-3{margin-left: 8rem;
+      }
+      #b-3, #cm,#kg, #name, #sex, #factor
+      {
+        margin-top: 6px;
+      }
+
+      .grid-container{
+        display: grid;
+        grid-template-columns: auto auto;
+        position: relative;
+      
+      }
+      .chart{
+        position: relative;
+        left:8em ;
+      }
+      .grid-item{
+        border: 1px solid gray;
+        padding: 5px;
+        text-align: center;
+      }
+
+      .Select-factor{
+        width: 21rem;
+
+      }
+
+
+      /* Meet our team */
+      .team-banner{
+        color: white;
+        justify-content: center;
+        text-align: center;
+      }
+
+      .trainer{
+        height: 12em;
+        width: 18em;
+        border-radius: 12px;
+        margin-top: 12px;
+      }
+      .team-img{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-left: 17px;
+        margin-right: 17px;
+      }
+
+      /* Footer part */
+      .footer{
+        display: flex;
+      color: white;
+        width: 60em;
+        height:18em;
+        background-color:#222222;
+        }
+
+        .fi{
+          color: #E6533C;
+          max-width: 1440px;
+      }
+      .fi{
+          font-weight: 700;
+          font-size: 2.3rem;
+          font-style: italic;}
+
+          .get-2{
+          position: relative;
+          left: 22rem;
+          }
+          #get-2{
+            font-size: large;
+          }
+          .get-1{
+          position: relative;
+          left: 14rem;
+
+          }
+          #get-1{
+            font-size: large;
+          }
+          .fi,.fit{
+            position: relative;
+            left: 5rem;
+            top: 2rem;
+          }
+          .footer{
+            margin-top: 2rem;
+            margin-bottom: 0%;
+          }
+          
+          .fot{
+            position: relative;
+            top: 15em;
+          }
+          hr{
+            width: 40rem;
+            position: relative;
+            left: -16em;
+            top: 1.5rem;
+          }
+
+        /* Extra part */
+        .extra-part{
+          color: white;
+          width: 60em;
+          height: auto;
+          background-color:#222222;
+        }
+        #namee{
+          width: 28rem;
+          border: 2px solid red;
+        }
+        #last-namee{
+          width: 24rem;
+          margin-top: 1rem;
+          border: 2px solid red;
+        }
+        #email{
+          width: 20rem;
+          margin-top: 1rem;
+          margin-bottom: 1rem;
+          border: 2px solid red;
+        }
+        #P{
+          font-size: larger;
+          color: #cdaea9;
+          margin-left: 2rem;
+        }
+        .sty{
+          margin-left: 4rem;
+          margin-top: 2rem;
+          
+        }
+      /* Responsive for mobile */
+       
+
+      @media screen and (max-width:576px){
+        .banner, .habits, .bmi, .footer{
+            flex-direction: column;
+            width: 100%;
+        }
+        .tutorial{margin-left: 5em;
+        }
+        .workout{
+          margin-right: 3em;
+        }
+        .banner-description{
+            width: 100%;
+        }
+        .nav-link{
+            flex-direction: column;
+            display: none;
+        }
+        .run{
+          flex-direction: column;
+          width: auto;
+        }
+        .img-size{
+          margin-top: 4rem;
+          margin-left: -1rem;
+        }
+        .habits{
+          margin-left: 8rem;
+        }
+        .b, .bb{
+          margin-top: 12em;
+          margin-left: 1em;
+        }
+        .team-img{
+          display: grid;
+          grid-template-columns: repeat(1,1fr);}
+          .team-banner{
+            margin-top: 29em;
+            margin-left: 2em;
+          }
+          .get-1{
+            position: relative;
+            left: 1.3em;
+          }
+          .get-2{
+            position: relative;
+          left: 1em;
+          }
+          .footer{
+            background-color: #303030;
+            height: auto;
+          }
+          .run{
+            background-color: #303030;
+            height: auto;
+          }
+          .img-size{
+            width: 17em;
+            position: relative;
+            right: -3em;
+          }
+          .bmi{
+            background-color: #303030;
+            height: auto;
+          }
+        .fot{
+          background-color: #303030;
+          margin-top: 0%;
+        }
+
+    
+      }
