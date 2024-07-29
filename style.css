@@ -47,6 +47,12 @@
     font-size: 1.12rem;
     color: #FFFFFF;}
 
+    .nav{
+      list-style: none;
+      position: absolute;
+      top: -2em;
+    }
+
     /* banner styles */
     .banner{
         display: flex;
@@ -212,6 +218,11 @@
         width: 21rem;
 
       }
+      .extra-part,input{
+        border-radius: 5px;
+        height: 2em;
+        background-color:#333333;
+      }
 
 
       /* Meet our team */
@@ -297,18 +308,18 @@
         }
         #namee{
           width: 28rem;
-          border: 2px solid red;
+          border: 2px solid gray;
         }
         #last-namee{
           width: 24rem;
           margin-top: 1rem;
-          border: 2px solid red;
+          border: 2px solid gray;
         }
         #email{
           width: 20rem;
           margin-top: 1rem;
           margin-bottom: 1rem;
-          border: 2px solid red;
+          border: 2px solid gray;
         }
         #P{
           font-size: larger;
@@ -319,6 +330,10 @@
           margin-left: 4rem;
           margin-top: 2rem;
           
+        }
+
+        .nav{
+
         }
       /* Responsive for mobile */
        
@@ -336,9 +351,14 @@
         .banner-description{
             width: 100%;
         }
-        .nav-link{
-            flex-direction: column;
+        .nav-item{
             display: none;
+        }
+        .nav{
+          list-style: none;
+          position: absolute;
+          left: 25em;
+          top: 3.2em;
         }
         .run{
           flex-direction: column;
@@ -371,11 +391,11 @@
           left: 1em;
           }
           .footer{
-            background-color: #303030;
+            background-color: #222222;
             height: auto;
           }
           .run{
-            background-color: #303030;
+            background-color: #222222;
             height: auto;
           }
           .img-size{
@@ -384,13 +404,93 @@
             right: -3em;
           }
           .bmi{
-            background-color: #303030;
+            background-color: #222222;
             height: auto;
           }
         .fot{
-          background-color: #303030;
+          background-color: #222222;
           margin-top: 0%;
         }
+        .banner-img{
+          position: absolute;
+          top:25rem;
+          right: 8rem;
+        }
+        .banner-text{
+          position:absolute;
+          bottom: 5rem;
+          left: 5rem;
+        }
+        
+        .banner{position: absolute;
+          top: 5rem;
+          background-color: #111111;
+          height: 63em;
+          width:34em;
+        }
+        .change{
+      position: absolute;
+      top: 70rem;
+      left: 5rem;
+        }
+        .habits{
+          position: absolute;
+          top: 80rem;
+        }
+        .run{
+          position: absolute;
+          top: 155rem;
+          background-color:#222222;
+          width: 22em;
+        }
+        .bmi{
+          position: absolute;
+          top:190rem;
+        }
+        .team-banner{
+          position: absolute;
+          top: 210rem;
+        }
+        .extra-part{
+          position: absolute;
+          top: 328rem;
+          width: 34em;
 
-    
-      }
+        }
+        .body{
+          height: auto;}
+
+        .footer{position: absolute;
+          top: 357rem;
+
+        }
+        .grid-container{
+          position: relative;
+          left: -8rem;
+        }
+        .input{
+          position: relative;
+        top: -6rem;
+        }
+        .navbar{
+            justify-content:flex-start;
+            width: 34em;
+          }
+          .workout{
+            height: 75px;
+            width: 135px;
+          }
+          .extra{
+            margin-left: 5em;
+          }
+          #run-btn{
+            width: 17em;
+          }
+
+          }
+        
+      
+          
+          
+          
+          }
