@@ -108,7 +108,7 @@
         border-radius: 50%;
         position: relative;
         left: -3em;
-        top: 2em;
+        top: 1.1em;
       }
     .workout{
         height: 75px;
@@ -379,10 +379,7 @@
         }
         .habits{
           margin-left: 8rem;
-        }
-        .b, .bb{
-          margin-top: 12em;
-          margin-left: 1em;
+
         }
         .team-img{
           display: grid;
@@ -454,23 +451,23 @@
         }
         .bmi{
           position: absolute;
-          top:190rem;
+          top:200rem;
         }
         .team-banner{
           position: absolute;
-          top: 210rem;
+          top: 230rem;
         }
         .extra-part{
           position: absolute;
-          top: 328rem;
-          width: 34em;
+          top: 348rem;
+          width:100%;
 
         }
         .body{
           height: auto;}
 
         .footer{position: absolute;
-          top: 357rem;
+          top: 377rem;
 
         }
         .grid-container{
@@ -496,10 +493,16 @@
             width: 17em;
           }
 
+          .bmi-c{position: absolute;
+            top: 190rem;
+            left:-19.5rem;
+
+          }
+
           }
         
       
           
           
           
-          }
+          
