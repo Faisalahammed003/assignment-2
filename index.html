@@ -10,7 +10,7 @@
 </head>
 <body class="body">
     <header>
-        <nav class="navbar display-flex">
+        <nav id="nav" class="navbar display-flex">
             <h3 class="fitness">Fitness</h3>
             <ui class="nav-link display-flex">
                 <li class="nav-item"><a href="" id="home" class="nav-link">Home</a></li>
@@ -23,10 +23,11 @@
         <section class="banner">
             <div class="banner-text">
                 <h1 class="banner-title">Get body in <br><span id="shape">shape</span> & stay <br>healthy</h1>
-                <p class="banner-description">If you still look good at the end <br> of your workout, you didn’t train hard enough</p>
+                <p class="banner-description">If you still look good at the end <br> of your workout, you didn’t train hard</p>
                 <button class="btn-1">Join Club Now!</button>
                 <button class="btn-2">Download App</button>
             </div>
+            <section class="ba-img">
             <div class="banner-img"><img src="./images/Images 2.png" alt="">
 
             <h3 class="tutorial"><span class="tutorial-span"></span>
@@ -39,6 +40,7 @@
               <small class="free">Free Workout Videos</small>
             </h3>
             </div>
+            </section>
 
         </section>
     </header>
@@ -109,9 +111,15 @@
         <input placeholder="Weight/kg" type="text" name="" id="kg">
         <br>
         <input placeholder="Age" type="text" name="" id="name">
-        <input placeholder="Sex" type="text" name="" id="sex">
+        <select name="" id="sex">
+        <option value="Sex">Sex</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        </Select>
         <br>
-        <input class="Select-factor" placeholder="Select an activity factor" type="text" name="" id="factor">
+        <select class="Select-factor" name="" id="factor">
+            <option value="Select an activity factor">Select an activity factor</option>
+        </select>
         <br>
         <button id="b-3" class="btn-1">Calculate</button>
         </div>
@@ -128,6 +136,36 @@
                     <img class="trainer" src="./images/trainer5.png" alt="">
                     <img class="trainer" src="./images/trainer6.png" alt="">
                 </div>
+                <div class="tn-1"><h3>Jerome Bell
+                    <br>
+                   <small>Trainer</small>
+                </h3></div>
+            </div>
+
+            <div class="tn-2"><h3>Cameron Williamson
+                <br>
+               <small>Trainer</small>
+            </h3></div>
+
+            <div class="tn-3"><h3>Darrell Steward
+                <br>
+               <small>Trainer</small>
+            </h3></div>
+
+            <div class="tn-4"><h3>Dianne Russell
+                <br>
+               <small>Trainer</small>
+            </h3></div>
+
+            <div class="tn-5"><h3>Cody Fisher
+                <br>
+               <small>Trainer</small>
+            </h3></div>
+
+            <div class="tn-6"><h3>Theresa Webb
+                <br>
+               <small>Trainer</small>
+            </h3></div>
         </section>
 
         <section class="extra-part">

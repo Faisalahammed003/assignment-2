@@ -225,12 +225,19 @@
 
       .Select-factor{
         width: 21rem;
+        color: gray;
 
       }
-      .extra-part,input{
+      .extra-part,input, select{
         border-radius: 5px;
         height: 2em;
         background-color:#333333;
+      }
+
+      #sex{
+        width: 10.5rem;
+        color: gray;
+
       }
 
 
@@ -252,6 +259,36 @@
         grid-template-columns: repeat(3,1fr);
         margin-left: 17px;
         margin-right: 17px;
+      }
+      .tn-1{
+        position: absolute;
+        top: 127rem;
+        left: -1rem;
+      }
+      .tn-2{
+        position: absolute;
+        top: 127rem;
+        left: 18rem;
+      }
+      .tn-3{
+        position: absolute;
+        top: 127rem;
+        left: 37rem;
+      }
+      .tn-4{
+        position: absolute;
+        top: 140rem;
+        left: -1rem;
+      }
+      .tn-5{
+        position: absolute;
+        top: 140rem;
+        left: 18rem;
+      }
+      .tn-6{
+        position: absolute;
+        top: 140rem;
+        left: 37rem;
       }
 
       /* Footer part */
@@ -358,7 +395,7 @@
           margin-right: 3em;
         }
         .banner-description{
-            width: 100%;
+            width: 100%
         }
         .nav-item{
             display: none;
@@ -457,6 +494,40 @@
           position: absolute;
           top: 230rem;
         }
+        .tn-1{
+          position: absolute;
+          top: 16rem;
+          z-index:1;
+        }
+        .tn-2{
+          position: absolute;
+          top: 29rem;
+          left: 0rem;
+          z-index:1;
+        }
+        .tn-3{
+          position: absolute;
+          top: 42rem;
+          left: 0rem;
+          z-index:1;
+        }
+        .tn-4{
+          position: absolute;
+          top: 55rem;
+          z-index:1;
+        }
+        .tn-5{
+          position: absolute;
+          top: 68rem;
+          left: 0rem;
+          z-index:1;
+        }
+        .tn-6{
+          position: absolute;
+          top: 80rem;
+          left: 0rem;
+          z-index:1;
+        }
         .extra-part{
           position: absolute;
           top: 348rem;
@@ -498,8 +569,37 @@
             left:-19.5rem;
 
           }
+          #namee{
+            width: 20rem;
+  
 
           }
+           #last-namee {
+            width: 20rem;
+           }
+  
+          #nav{
+            width: 100%;
+          }
+          #menu{
+            position: absolute;
+            left: 20rem;
+          }
+       
+          .banner{
+            width:100%;
+          }
+
+
+          .ba-img{
+            position: absolute;
+            right: -7rem;
+          }
+
+          
+       
+       
+        }
         
       
           
